@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-:root{
+:root{ /*esta parte es para inicializar variables con respecto a color y fuente*/
     --color-primario: #240750;
     --color-secundario: #344C64;
     --color-terciario: #577B8D;
@@ -116,7 +116,7 @@ body{
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) { /*esta parte es para poder alterarlo de distintos tamaños o pantalla*/
     .header{
         padding: 10%;
     }
